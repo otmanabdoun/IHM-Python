@@ -1,0 +1,47 @@
+from cx_Freeze import setup, Executable
+import sys
+
+productName = "ProductName"
+if 'bdist_msi' in sys.argv:
+    sys.argv += ['--initial-target-dir', 'C:\InstallDir\\' + productName]
+    sys.argv += ['--install-script', 'install.py']
+
+exe = Executable(
+      script="main.py",
+      base="Win32GUI",
+      targetName="Product.exe"
+     )
+setup(
+      name="Product.exe",
+      version="1.0",
+      author="Me",
+      description="Copyright 2012",
+      executables=[exe],
+      scripts=[
+               'install.py'
+               ]
+      ) 
+
+
+
+______________________________________________________
+
+
+
+import sys
+from cx_Freeze import setup, Executable
+
+# Dependencies are automatically detected, but it might need fine tuning.
+build_exe_options = {"packages": ["os"], "excludes": ["wx"]}
+
+# GUI applications require a different base on Windows (the default is for a
+# console application).
+base = None
+if sys.platform == "win32":
+    base = "Win32GUI"
+
+setup(  name = "smtpMail",
+        version = "0.1",
+        description = "My GUI application!",
+        options = {"build_exe": build_exe_options},
+        executables = [Executable("Main.py", base=base)])
