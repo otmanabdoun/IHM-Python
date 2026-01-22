@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root SYSTEM "doc.dtd">
+<?xml-stylesheet href="fichier.xsl" type="text/xsl"?>
+
+<gestiondecmd>
+	<produit id="p1">
+		<nom>NIVEA</nom>
+		<prix>150DH</prix>
+	</produit>
+	
+	
+	<client>
+		<nom>mohamed</nom>
+		<cmd >
+		
+		   <type> cmd 1</type>
+		   <ligne-cmd qte="1" id="p1">1</ligne-cmd>
+		</cmd>
+	</client>
+	
+	
+</gestiondecmd>

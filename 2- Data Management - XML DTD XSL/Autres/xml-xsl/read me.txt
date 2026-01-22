@@ -1,0 +1,1 @@
+Lorsque vous ajoutez nouvel element soit client ou un commande ou un lign de commande la table rest toujour bien formé

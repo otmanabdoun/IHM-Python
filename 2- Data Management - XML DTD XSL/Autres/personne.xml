@@ -1,0 +1,25 @@
+<?xml-stylesheet type="text/xsl" href="Affichpersonne.xsl"?>
+
+<personne>
+    
+    <nom>Abdoun</nom>
+    
+    <prenom>Otman</prenom>
+    
+</personne>
+
+<personne>
+    
+    <nom>ALi</nom>
+    
+    <prenom>Youness</prenom>
+    
+</personne>
+
+<personne>
+    
+    <nom>AMjad</nom>
+    
+    <prenom>Souad</prenom>
+    
+</personne>

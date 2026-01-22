@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sty.xsl" ?>
+<!DOCTYPE Gestion_Commande SYSTEM "testdtd.dtd">
+<Gestion_Commande>
+    
+    <Client id_clt="c1" nom_clt="rida">
+        
+        <Commande id_cmd="cmd1" >
+            
+            <Ligne_com id_prod="a1" Qte_com="5"/>
+            <Ligne_com id_prod="a2" Qte_com="8"/>
+        </Commande>
+        <Commande id_cmd="cmd2">
+            
+            <Ligne_com id_prod="a1" Qte_com="5"/>
+            <Ligne_com id_prod="a2" Qte_com="8"/>
+        </Commande>
+        
+    </Client>
+    
+    <Client id_clt="c2" nom_clt="brahim">
+        
+        <Commande id_cmd="cmd1">
+            
+            <Ligne_com id_prod="a1" Qte_com="1"/>
+            <Ligne_com id_prod="a4" Qte_com="7"/>
+        </Commande>
+        
+        <Commande id_cmd="cmd2">
+            
+            <Ligne_com id_prod="a3" Qte_com="5"/>
+            <Ligne_com id_prod="a4" Qte_com="8"/>
+        </Commande>
+        <Commande id_cmd="cmd3">
+            
+            <Ligne_com id_prod="a3" Qte_com="5"/>
+            <Ligne_com id_prod="a4" Qte_com="8"/>
+        </Commande>
+        
+    </Client>
+    
+    <Client id_clt="c3" nom_clt="ahmed">
+        
+        <Commande id_cmd="cmd1">
+            
+            <Ligne_com id_prod="a5" Qte_com="5"/>
+            <Ligne_com id_prod="a2" Qte_com="8"/>
+        </Commande>
+        <Commande id_cmd="cmd2">
+            
+            <Ligne_com id_prod="a4" Qte_com="9"/>
+            <Ligne_com id_prod="a2" Qte_com="8"/>
+        </Commande>
+        
+        
+    </Client>
+    
+   <produit id_produit="a1" nom_pr="souris"/>
+    <produit id_produit="a2" nom_pr="clavies"/>
+    <produit id_produit="a3" nom_pr="ecran"/>
+    <produit id_produit="a4" nom_pr="usb"/>
+    <produit id_produit="a5" nom_pr="cable"/>
+</Gestion_Commande>

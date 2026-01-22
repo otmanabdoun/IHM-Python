@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE Gestion_commande SYSTEM "gestion_de_facture.dtd">
+<?xml-stylesheet type = "text/xsl" href = "gestion_commande.xsl"?> 
+	<Gestion_commande>
+	
+	<client>
+	<id_client>1</id_client>
+	<nom>Benaich</nom>
+	<Prenom>Rihab</Prenom>
+	<Email>rihabbenaich1@gmail.com</Email>
+	
+	<commande>
+	<ligne_commande>
+	<qte_cmd>40
+	</qte_cmd>
+	<id_prod >320 </id_prod>
+	</ligne_commande>
+	
+	</commande>
+	</client>
+		<client>
+	<id_client>2</id_client>
+	<nom>Tammam</nom>
+	<Prenom>Charifa</Prenom>
+	<Email>CharifaTammam1@gmail.com</Email>
+	
+	<commande>
+	<ligne_commande>
+	<qte_cmd>85
+	</qte_cmd>
+	<id_prod >250 </id_prod>
+	</ligne_commande>
+	
+	</commande>
+	</client>
+	<Produit>
+	<id_prod>320</id_prod>
+	<Nom_Produit>imprimante</Nom_Produit>
+	
+	</Produit>
+	<Produit>
+	<id_prod>250</id_prod>
+	<Nom_Produit>clavier</Nom_Produit>
+	
+	</Produit>
+	</Gestion_commande>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ficheXSL.xsl" type="text/xsl" ?>
+<GestionCommande>
+	<Client> 
+		<nom>JIYDH</nom>
+		<prenom> Abdulmageed</prenom>
+	</Client>
+	<LigneCommande Qte="10"  Id_prod="1">
+		 <Commande>commande 1</Commande>
+	</LigneCommande>
+	<Produit Id_prod="1"> <libelle>Produit2</libelle> </Produit>
+		
+		<Client> 
+			<nom>JIYDH</nom>
+			<prenom> Mohammed</prenom>
+		</Client>
+		<LigneCommande Qte="15"  Id_prod="2">
+			<Commande>commande 2</Commande>
+		</LigneCommande>
+		<Produit Id_prod="2"> 
+			<libelle>Produit2</libelle>
+			</Produit>
+	
+	<Client> 
+		<nom>JIYDH</nom>
+		<prenom> Nooh</prenom>
+	</Client>
+	<LigneCommande Qte="15"  Id_prod="3">
+		<Commande>commande 3</Commande>
+	</LigneCommande>
+	<Produit Id_prod="3"> 
+		<libelle>Produit3</libelle>
+	</Produit>
+	
+	<Client> 
+		<nom>JIYDH</nom>
+		<prenom> Sam</prenom>
+	</Client>
+	<LigneCommande Qte="15"  Id_prod="4">
+		<Commande>commande 4</Commande>
+	</LigneCommande>
+	<Produit Id_prod="4"> 
+		<libelle>Produit4</libelle>
+	</Produit>
+</GestionCommande>

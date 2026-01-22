@@ -1,0 +1,18 @@
+<!ELEMENT gestion_commande (client*,produit*)>
+<!ELEMENT client (commande+,idC,nomC,prenomC,cin)>
+<!ELEMENT commande (ligne_commande,num)>
+<!ELEMENT produit (nomP)>
+<!ELEMENT idC (#PCDATA)>
+<!ELEMENT nomC (#PCDATA)>
+<!ELEMENT prenomC (#PCDATA)>
+<!ELEMENT cin (#PCDATA)>
+<!ELEMENT nomP (#PCDATA)>
+<!ATTLIST produit 
+id ID #REQUIRED
+>
+<!ELEMTNT num (#PCDATA)>
+<!ATTLIST ligne_commande
+Qtr_cmd CDATA #REQUIRED
+Id_prod IDREF #REQUIRED
+>
+

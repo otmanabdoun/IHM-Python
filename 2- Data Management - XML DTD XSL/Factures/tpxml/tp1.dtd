@@ -1,0 +1,13 @@
+<!ELEMENT Gestion_Commande (client+,produit+)>
+<!ELEMENT client (Commande)>
+<!ATTLIST client
+          nom CDATA #REQUIRED>
+<!ELEMENT Commande (ligne_Commande)>
+<!ELEMENT ligne_Commande (#PCDATA)>
+<!ATTLIST ligne_Commande
+          id_prod CDATA #REQUIRED
+          qte_cmd CDATA #REQUIRED>
+<!ELEMENT produit (#PCDATA)>
+<!ATTLIST produit
+          id_prod ID #REQUIRED
+>

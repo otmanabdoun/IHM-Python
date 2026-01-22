@@ -1,0 +1,12 @@
+<!ELEMENT Gestion_cahier_txt (Prof+)>
+<!ELEMENT Prof (Cahier_txt+)>
+<!ATTLIST Prof id_prof ID #REQUIRED>
+<!ELEMENT Cahier_txt (Seance+)>
+<!ATTLIST Cahier_txt id_mod ID #REQUIRED>
+<!ELEMENT Seance EMPTY>
+<!ATTLIST Seance id_grp ID #REQUIRED
+date_seance CDATA #REQUIRED
+num_salle CDATA #REQUIRED
+objectifs CDATA #REQUIRED
+synthese CDATA #REQUIRED
+objectifs_de_la_seance_prochaine CDATA #REQUIRED>

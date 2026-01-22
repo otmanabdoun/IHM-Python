@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" version="1.0" href="gestion_commande.xsl"?>
+
+<!DOCTYPE gestion_commande SYSTEM "Dtd.dtd">
+
+<gestion_commande>
+<!--client N1-->	
+	<client>
+		<idC>1</idC>
+		<nomC>FADIL</nomC>
+		<prenomC>Fatima ezzahra</prenomC>
+		<cin>IB222</cin>
+
+		<commande>
+			<num>14</num>
+			<ligne_commande Qte_cmd="10" Id_prod="p1"></ligne_commande>
+		</commande>
+	</client>
+	<produit id="p1">
+		<nomP>COOKIES</nomP>
+	</produit>			
+<!--client N2-->
+	<client>
+		<idC>2</idC>
+		<nomC>FADIL</nomC>
+		<prenomC>Hajar</prenomC>
+		<cin>IB223</cin>
+
+		<commande>
+			<num>12</num>
+			<ligne_commande Qte_cmd="20" Id_prod="p2"></ligne_commande>
+		</commande>
+	</client>
+	<produit id="p2">
+		<nomP>TONIK</nomP>
+	</produit>	
+	<!--client N3-->
+	<client>
+		<idC>3</idC>
+		<nomC>FADIL</nomC>
+		<prenomC>Sara</prenomC>
+		<cin>IB224</cin>
+
+		<commande>
+			<num>12</num>
+			<ligne_commande Qte_cmd="30" Id_prod="p3"></ligne_commande>
+		</commande>
+	</client>
+	<produit id="p3">
+		<nomP>TAGER</nomP>
+	</produit>			
+</gestion_commande>		

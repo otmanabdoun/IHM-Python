@@ -1,0 +1,22 @@
+
+<!DOCTYPE gestiondecmd [
+  <!ELEMENT gestiondecmd (client+,produit+)>
+  <!ELEMENT client (cmd+)>
+  <!ELEMENT cmd (ligne-cmd+)>
+  <!ELEMENT ligne-cmd EMPTY>
+  <!ATTLIST client
+  
+      nom CDATA #REQUIRED
+	  id ID #REQUIRED
+      <!ATTLIST cmd
+	     type CDATA #REQUIRED
+	     <!ATTLIST ligne-cmd
+	     id IDREF #REQUIRED
+		 qte CDATA #REQUIRED
+	     >
+   
+      >
+		 
+		 
+   >
+]>

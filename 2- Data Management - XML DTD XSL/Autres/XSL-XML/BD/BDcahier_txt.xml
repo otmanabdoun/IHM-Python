@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE root SYSTEM "cahier_txt.dtd">
+
+<Gestion_cahier_txt >
+<Prof id_prof="12">
+<Cahier_txt id_mod="DW_BD">
+<Seance id_grp="GOI_EEA"
+objectifs="KKKK"
+num_salle="B03"
+synthese="OOOO"
+objectifs_de_la_seance_prochaine="TD"
+date_seance="12/12/2012"/>
+</Cahier_txt>
+</Prof>
+</Gestion_cahier_txt >

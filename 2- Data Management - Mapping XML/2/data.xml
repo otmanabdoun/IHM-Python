@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user data-id="101">
+        <nom>ALALLATI Yassmina</nom>
+        <master>Master M2I</master>
+    </user>
+    <user data-id="102">
+        <nom>AHAJTAN Kama</nom>
+        <master>Master M2I</master>
+    </user>
+    <user data-id="103">
+        <nom>ANNA Zakariae</nom>
+        <master>Master MQL</master>
+    </user>
+    <user data-id="104">
+        <nom>AKDI Moaad</nom>
+        <master>Master M2I</master>
+    </user>
+    <user data-id="105">
+        <nom>AKHROUFI Ismail</nom>
+        <master>Master MQL</master>
+    </user>
+    <user data-id="106">
+        <nom>ELATTAQ Nadia</nom>
+        <master>Master MQL</master>
+    </user>
+</users>
+
+
+
+
+

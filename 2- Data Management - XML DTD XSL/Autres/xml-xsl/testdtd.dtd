@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Gestion_Commande (Client+,produit+)> 
+    <!ELEMENT produit EMPTY>
+   
+        <!ATTLIST produit
+            id_produit ID #REQUIRED
+            nom_pr CDATA #REQUIRED
+        >
+
+<!ELEMENT Client (Commande+)> 
+<!ATTLIST Client
+            id_clt ID #REQUIRED
+            nom_clt CDATA #REQUIRED
+            
+        >
+<!ELEMENT Commande (Ligne_com+)> 
+<!ATTLIST Commande
+            id_cmd CDATA #REQUIRED
+     
+            
+        >
+<!ELEMENT Ligne_com EMPTY> 
+
+        <!ATTLIST Ligne_com
+            id_prod IDREF #REQUIRED
+            Qte_com CDATA   #REQUIRED
+        >
+        
+
+
+
+

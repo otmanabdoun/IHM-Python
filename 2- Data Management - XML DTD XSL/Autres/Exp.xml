@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Livre [
+<!ELEMENT Livre (titre, Auteur)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT Auteur (#PCDATA)>
+]>
+<Livre>
+    <titre>Base de données XML</titre>
+    <Auteur>Coline Serreau</Auteur>
+</Livre>

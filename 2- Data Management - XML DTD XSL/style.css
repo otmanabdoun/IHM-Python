@@ -1,0 +1,56 @@
+
+body{
+	background-color:#d4d4d4;
+	font-family: "Georgia",serif;
+}
+h1{
+	width:500px;
+	margin:auto;
+	margin-bottom: 15px;
+}
+h1,h2{
+	color: #002d71;
+}
+#NbCmd{
+	color:white;
+	background-color: #1380c9;
+}
+.produits,.clients,.produits_commandes{
+	background-color: #ffffff; 
+	border-radius: 10px;
+	box-shadow: 2 1 10 1 #888888;
+	width:15%;
+	padding:0 0 10 0;
+}
+.produits_commandes{
+	width:66.2%;
+	height: 90%;
+}
+.clients,.produits_commandes{
+	float:left;
+	margin-left:10px;
+}
+.produits{
+	width:17%;
+	float:left;
+}
+table{
+	border-collapse: collapse;
+	width:100%;
+}
+tr:nth-child(odd){
+	background-color: #f0f4f6
+}
+tr:nth-child(even){
+	background-color: #ffffff
+}
+
+th {
+    background-color: #feb947;
+    color: white;
+}
+th,td{
+	text-align: left;
+	padding: 10px;	
+}
+

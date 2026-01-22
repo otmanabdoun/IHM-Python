@@ -1,0 +1,30 @@
+
+<!ELEMENT Gestion_Commande (Client,Produit)>
+<!ELEMENT Client (Commande+)>
+<!ELEMENT Commande (Ligne_Commande)>
+
+<!ATTLIST Client 
+	id ID #REQUIRED
+	nom CDATA #REQUIRED
+	prenom CDATA #REQUIRED >
+
+<!ATTLIST Commande
+	num ID #REQUIRED >
+
+<!ATTLIST Ligne_Commande 
+	Qte_cmd CDATA #REQUIRED
+	Id_prod IDREF #REQUIRED >
+
+<!ATTLIST Produit
+	idP ID #REQUIRED
+	nomP CDATA #REQUIRED >
+	
+	
+
+
+
+
+
+
+
+

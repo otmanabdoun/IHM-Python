@@ -1,0 +1,23 @@
+
+<!DOCTYPE Gestion_commande[
+<!ELEMENT Gestion_commande(client,Produit)>
+<!ELEMENT client(id_client,nom,Prenom,commande)>
+
+<!ATTLIST client
+id_client CDATA #REQUIRED
+nom CDATA #REQUIRED
+Prenom CDATA #REQUIRED
+Email CDATA #REQUIRED
+>
+<!ELEMENT commande EMPTY>
+<!ATTLIST commande
+<!ELEMENT ligne_commande EMPTY>
+<!ATTLIST ligne_commande
+
+qte_cmd CDATA #REQUIRED
+id_prod IDREF #REQUIRED
+>
+>
+<!ELEMENT Produit(id_prod,Nom_Produit)>
+<!ATTLIST id_prod ID #REQUIRED
+Nom_Produit CDATA #REQUIRED>]>

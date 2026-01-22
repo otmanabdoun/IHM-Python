@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="1.0" href="Gestion de factures.xsl"?>
+<!DOCTYPE Gestion_Commande SYSTEM "Gestion de factures.dtd">
+<Gestion_Commande>
+	
+	<Client id="1" nom="Jeghaid" prenom="Kaoutar">
+		<Commande Num="2">
+		 	<Ligne_de_commande Qte_cmd="100" Id_prod="m1"></Ligne_de_commande>	
+		</Commande>
+		
+	</Client>
+	<Produit idP="m1" nomP="Produit_1"></Produit>
+
+	<Client id="2" nom="Jeghaid" prenom="Fatine">
+		<Commande Num="4">
+		<Ligne_de_commande Qte_cmd="200" Id_prod="m2"></Ligne_de_commande>	
+		</Commande>
+		
+	</Client>
+	<Produit idP="m2" nomP="Produit_2"></Produit>
+
+	<Client id="3" nom="Kessioui" prenom="Safae">
+		<Commande Num="6">
+		<Ligne_de_commande Qte_cmd="300" Id_prod="m3"></Ligne_de_commande>	
+		</Commande>
+		
+	</Client>
+	<Produit idP="m3" nomP="Produit_3"></Produit>
+
+	<Client id="4" nom="Kessioui" prenom="Kaoutar">
+		<Commande Num="8">
+		<Ligne_de_commande Qte_cmd="400" Id_prod="m4"></Ligne_de_commande>	
+		</Commande>
+		
+	</Client>
+	<Produit idP="m4" nomP="Produit_4"></Produit>
+</Gestion_Commande> 

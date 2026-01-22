@@ -1,0 +1,13 @@
+   <!ELEMENT GestionCommande (Client+,LigneCommande+,Produit+)>
+     <!ELEMENT Client (nom ,prenom)> 
+     <!ELEMENT Client EMPTY>
+     <!ELEMENT  nom (#PCDATA)> 
+     <!ELEMENT  prenom (#PCDATA)> 
+     <!ELEMENT LigneCommande (Commande)> 
+     <!ELEMENT LigneCommande EMPTY>
+     <!ELEMENT  Commande (#PCDATA)> 
+     <!ELEMENT  Produit (libelle)> 
+     <!ELEMENT  libelle (#PCDATA)> 
+     <!ATTLIST LigneCommande Qte CDATA "10"
+     						 Id_prod ID #REQUIRED>
+	  <!ATTLIST Produit Id_prod IDREF #REQUIRED>

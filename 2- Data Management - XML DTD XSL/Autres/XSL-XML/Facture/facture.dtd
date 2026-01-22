@@ -1,0 +1,9 @@
+<!ELEMENT Gcommande (client,produit+)>
+<!ELEMENT client (commande+)>
+<!ELEMENT commande (ligne_commande+)>
+<!ELEMENT ligne_commande (#PCDATA)>
+<!ATTLIST ligne_commande qnt PCDATA #REQUIRED
+                         refprod  IDREF #REQUIRED>
+
+<!ELEMENT produit (#PCDATA)>                   
+<!ATTLIST produit idprod ID #REQUIRED>                        

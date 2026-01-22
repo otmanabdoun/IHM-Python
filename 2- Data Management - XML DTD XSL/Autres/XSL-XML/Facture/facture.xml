@@ -1,0 +1,37 @@
+<?xml version="1.0"  standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="facture.xsl"?>
+<!DOCTYPE Gcommande SYSYTEM "facture.dtd">
+<Gcommande>
+   
+   <client>    
+          <commande>
+             <ligne_commande qnt='1' refprod='d'> commande client 1  </ligne_commande>
+          </commande>              
+   </client>
+
+
+   <client>    
+          <commande>
+             <ligne_commande qnt='2' refprod='d1'> commande client 2  </ligne_commande>
+          </commande>              
+   </client>
+
+
+   <client>    
+          <commande>
+             <ligne_commande qnt='3' refprod='d2'> commande client 3  </ligne_commande>
+          </commande>              
+   </client>
+
+
+   <produit idprod='d'>
+          produit 1
+   </produit>
+
+   <produit idprod='d1'>
+          produit 2
+   </produit>
+   <produit idprod='d2'>
+          produit 3
+   </produit>
+</Gcommande>

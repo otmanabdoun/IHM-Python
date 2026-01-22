@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Gestion_commande SYSTEM "tp1.dtd">
+<?xml-stylesheet type="text/xsl" href="tp1.xsl"?>
+<Gestion_Commande>
+
+
+
+                    <client nom="FARDALI">
+
+                    <Commande>
+                    <ligne_Commande qte_cmd="66" id_prod="produit numero 1">
+                    </ligne_Commande>
+
+                    </Commande>
+
+                    </client>
+                    <client nom="SAAIDI">
+
+                    <Commande>
+                    <ligne_Commande qte_cmd="66" id_prod="produit numero 2">
+                    </ligne_Commande>
+
+                    </Commande>
+
+                    </client>
+                    <client nom="BENGAAD">
+
+                    <Commande>
+                    <ligne_Commande qte_cmd="66" id_prod="produit numero 3">
+                    </ligne_Commande>
+
+                    </Commande>
+
+                    </client>
+                    <client nom="GHANNOUCHI">
+
+                    <Commande>
+                    <ligne_Commande qte_cmd="66" id_prod="produit numero 4">
+                    </ligne_Commande>
+
+                    </Commande>
+
+                    </client>
+
+          
+                    <produit id_prod="produit numero 1">
+
+
+                    </produit>
+                    <produit id_prod="produit numero 2">
+
+
+                    </produit>
+                    <produit id_prod="produit numero 3">
+
+
+                                        </produit>
+                    <produit id_prod="produit numero 4">
+
+
+                                        </produit>
+
+
+
+
+
+
+
+</Gestion_Commande>

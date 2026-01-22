@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="facture.xsl"?>
+
+
+<Facture  Nom_clt="MASSOU SIHAM"
+         Dat_cmd="15/12/2008" Num_fact="1" Add_cli="233 oued eddahab,Errachidia">
+
+ <ligne_de_cmd>
+
+  <Descr_prd> Souris </Descr_prd>
+  <Qte_cmd> 40 </Qte_cmd>
+  <Prix_unt_prod> 400 </Prix_unt_prod>
+
+ </ligne_de_cmd>
+
+ <ligne_de_cmd>
+
+  <Descr_prd> Clavier </Descr_prd>
+  <Qte_cmd> 44 </Qte_cmd>
+  <Prix_unt_prod> 4400 </Prix_unt_prod>
+
+ </ligne_de_cmd>
+
+ <ligne_de_cmd>
+
+  <Descr_prd> Unité_central </Descr_prd>
+  <Qte_cmd> 2 </Qte_cmd>
+  <Prix_unt_prod> 3000 </Prix_unt_prod>
+
+ </ligne_de_cmd>
+
+
+</Facture>
+
+
+

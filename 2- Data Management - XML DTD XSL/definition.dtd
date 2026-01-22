@@ -1,0 +1,32 @@
+
+<!ELEMENT gestion_commande  ( produit+ , client+ )>
+
+<!ELEMENT produit  EMPTY>
+<!ATTLIST produit
+id_prod ID #REQUIRED
+designation CDATA #REQUIRED
+prix CDATA #REQUIRED
+>
+
+<!ELEMENT client  ( commande+ )>
+<!ATTLIST client
+id_client ID #REQUIRED
+nom CDATA #REQUIRED
+prenom CDATA #REQUIRED
+>
+
+<!ELEMENT commande  ( ligne_cmd+ )>
+<!ATTLIST commande
+id_cmd ID #REQUIRED
+>
+
+<!ELEMENT ligne_cmd  EMPTY>
+<!ATTLIST ligne_cmd
+ref_pro IDREF #REQUIRED
+qte_cmd CDATA #REQUIRED
+>
+
+
+
+
+
