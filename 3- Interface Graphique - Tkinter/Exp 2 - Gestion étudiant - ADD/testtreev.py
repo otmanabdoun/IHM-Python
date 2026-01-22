@@ -1,0 +1,20 @@
+tableau['columns']=("Id", "Nom", "Prenom", "Master")
+tableau.column("#0", width=100, minwidth=20)
+tableau.column('Id', anchor = CENTER, width=100)
+tableau.column('Nom', anchor = W, width=100)
+tableau.column('Prenom', anchor = W, width=100)
+tableau.column('Master', anchor = W, width=100)                
+tableau.heading('#0', text='LABEL')
+tableau.heading('id', text='Identifiant')
+tableau.heading('Nom', text='Nom ')
+tableau.heading('Prenom', text='Prénom')
+tableau.heading('Master', text='Master')
+
+
+tableau = Treeview(tkk, columns=('id', 'Nom', 'Prenom', 'Master'))
+tableau.heading('id', text='id')
+tableau.heading('Nom', text='Nom')
+tableau.heading('Prenom', text='Prénom')
+tableau.heading('Master', text='Master')
+tableau['show'] = 'headings' # sans ceci, il y avait une colonne vide à gauche qui a pour rôle d'afficher le paramètre "text" qui peut être spécifié lors du insert
+tableau.grid(row=5,column=0)

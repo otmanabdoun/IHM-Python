@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="view.xsl"?>
+<gestion_commandes>
+	<produit id_prod="pr1" designation="PC" prix="2500"/>
+	<produit id_prod="pr2" designation="Clavier" prix="100"/>
+	<produit id_prod="pr3" designation="Souris" prix="20"/>
+	<produit id_prod="pr4" designation="Ecran" prix="1000"/>
+	<produit id_prod="pr5" designation="SCanner" prix="200"/>
+
+	<client id_client="cl1" nom="AFKIR" prenom="Marouan">
+	
+		<commande id_cmd="cmd1">
+			
+			<ligne_cmd ref_pro="pr1" qte_cmd="10"/>
+			<ligne_cmd ref_pro="pr2" qte_cmd="1"/>
+			<ligne_cmd ref_pro="pr4" qte_cmd="3"/>
+		</commande>
+		<commande id_cmd="cmd2">
+			<ligne_cmd ref_pro="pr3" qte_cmd="1"/>
+			<ligne_cmd ref_pro="pr2" qte_cmd="5"/>
+			<ligne_cmd ref_pro="pr4" qte_cmd="13"/>
+		</commande>
+	</client>
+	<client id_client="cl2" nom="ABED" prenom="Abdelkader">
+		<commande id_cmd="cmd22">
+			<ligne_cmd ref_pro="pr1" qte_cmd="2"/>
+			<ligne_cmd ref_pro="pr2" qte_cmd="14"/>
+			<ligne_cmd ref_pro="pr4" qte_cmd="5"/>
+		</commande>
+		<commande id_cmd="cmd55">
+			<ligne_cmd ref_pro="pr3" qte_cmd="1"/>
+			<ligne_cmd ref_pro="pr2" qte_cmd="5"/>
+		</commande>
+		<commande id_cmd="cmd66">
+			<ligne_cmd ref_pro="pr1" qte_cmd="2"/>
+		</commande>
+	</client>
+</gestion_commandes>

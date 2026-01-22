@@ -1,0 +1,7 @@
+﻿<etudiants>
+    <etudiant data-id="200">
+            <nom>Amrani</nom>
+            <prenom>Nesrine</prenom>
+            <master>Master MQL</master>
+    </etudiant>
+  </etudiants>
